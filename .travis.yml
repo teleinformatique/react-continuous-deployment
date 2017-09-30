@@ -7,5 +7,5 @@ after_success:
  - git config --global user.name "Khadim Sarr"
  - git config --global user.email "khadimsarr@outlook.com"
  - git remote rm origin
- - git remote add origin https://teleinformatique:${836293dacd689e18d05ba586341faffdd8f34341}@github.com/react-continuous-deployment.git
+ - git remote add origin https://teleinformatique:${GH_TOKEN}@github.com/react-continuous-deployment.git
  - npm run deploy
